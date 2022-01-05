@@ -297,5 +297,67 @@ print(word)
 
 # Comments
 
+# Try / Except
 
+'''
+try:
+    number = int(input("enter a number : "))
+    print(number)
+except Exception as e:
+    print("Invalid Input")
 
+'''
+
+# Reading Files 
+
+'''
+'''
+# with open("D:\Code For Life\Python\Python_2022\Revision\Hey.txt","r") as f :
+ 
+#     print(f.readline())
+
+'''
+
+f = open("D:\Code For Life\Python\Python_2022\Revision\Hey.txt","r")
+
+# print(f.read())
+# f.readlines() return a List 
+for i in f.readlines():
+    print(i)
+
+f.close()
+'''
+# Writing to Files
+
+'''
+f = open("D:\Code For Life\Python\Python_2022\Revision\Hey.txt","w") # when we open in write mode then it overwrite the file
+
+f.write("\nHey GoSu")
+
+f.close()
+'''
+
+# Modules and Pip
+ 
+# Classes And  Objects
+'''
+ # Class is like Data Type means using class we can make our own data types.
+class Student: # we Creating student data type.
+
+    def __init__(self,name,major,gpa):
+        self.name = name
+        self.major = major
+        self.gpa = gpa
+
+student1 = Student("Pankaj","ICS",7.5) # Student1 is object of class
+print(student1.gpa)
+
+# Using class we can model real world object
+
+'''
+
+# Building a Multiple Choice Quiz
+
+# Object Function
+
+# Inheritance
